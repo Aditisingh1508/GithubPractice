@@ -1,6 +1,12 @@
 package LoginPage;
 
 public class Credential {
-	public String loginId;
-	public String Password;
+	private String loginId;
+	private String password;
+	
+public Credential( String loginID, String password)
+{
+	this.loginId = loginID;
+	this.password = password;
+}
 }
